@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN","7465305960:AAEO6Vl1mmjYQ2v5JfBbdOEzi-M4A58XK7Y")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Ansh1:TGwow@ansh1.35aemhh.mongodb.net/?retryWrites=true&w=majority&appName=Ansh1")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 560))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 240))
 
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002023843250))
@@ -65,7 +65,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", "BQDWZRoADcLDcwvCg-TkFyW3grJHHUpW2GtzT_ht7uSnuzeNq60LmT1kZu3GxdQBCy4mtNLeR_u5mAsTsydToemU2engfmLDEyqLMNSVdhhdLwc5KcgvnSxD3dhxXXFHpRsLphqMY5rs_Oq7k4UCf8Zx1Zg0m2G5y78c6W_AaJ13fvFu0acRs6KEcuxHiHO6bJ-z8m96dR8gSg4ERpfuxDCaGiCbYPe7nCff3lY14StAs0YxMLvVxqz2zBwwjZFYgf4QfA9BIISUCmaDcAIlkD4es0vmq9v_BejVP94VDCPzJjvYWWscAw97vetKZ8_DKWT9OXi4j6NWSVq7LhNFIIp378f-DwAAAAGBPz5fAA")
+STRING1 = getenv("STRING_SESSION", "AQDNvmIAAeJmXzyjQPnXHHYXqpHm4q_ppz4hb3yWKvEbVScc0S6yVWF8ZtiKRgXLllo64lg34BxFyHD6ZvNfYqCoSGwoRwXT1jSuUdu3yEb9XRI5iOn4hjz9fVP-P1j-Zk2LD9EUS79aNQJ3GhJGoo2u4t0TaxX63zrjGRgNiKNzrRi5-6DJdvueNsYaYI06uSPffbfpmuAB6dVjZ4RqxPGWzQTy765srOepyxx-HZ9nhd-ypm99CgMq2kzXrYsBafYbctBQJgEVPAH2FhUwYKBCWGisueEiyF4lsIjP_sdSWBkeijR3iqPlS4A_V4da8xp-dXWiXrbteOL75X_y5_PncrgkKAAAAAGBS9ZQAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
