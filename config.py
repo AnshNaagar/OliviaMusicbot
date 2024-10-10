@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID" 10732129))
-API_HASH = getenv("API_HASH" "ff00f45b106ccc2a69f1e74d1855e21e")
+API_ID = int(getenv("API_ID","10732129"))
+API_HASH = getenv("API_HASH","ff00f45b106ccc2a69f1e74d1855e21e")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN" "6762563464:AAH5cj6RmrNjGCJmavBhrch9HHX1QvlkAEM")
+BOT_TOKEN = getenv("BOT_TOKEN","6762563464:AAH5cj6RmrNjGCJmavBhrch9HHX1QvlkAEM")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ansh1:TGwow@ansh1.35aemhh.mongodb.net/?retryWrites=true&w=majority&appName=Ansh1")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://Ansh1:TGwow@ansh1.35aemhh.mongodb.net/?retryWrites=true&w=majority&appName=Ansh1")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
